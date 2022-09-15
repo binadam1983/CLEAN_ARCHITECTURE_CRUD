@@ -1,0 +1,11 @@
+{{ define "New.html" }}
+  {{ template "Header.html" }}
+    {{ template "Menu.html" }} 
+   <h2>Please Enter Country and Capital</h2>  
+    <form method="POST" action="/insert">
+      <input type="text" name="country" placeholder="Country here" /><br /><br />
+      <input type="text" name="capital" placeholder="Capital here" /><br /><br />
+      <input type="submit" value="Save" />
+    </form>
+  {{ template "Footer.html" }}
+{{ end }}

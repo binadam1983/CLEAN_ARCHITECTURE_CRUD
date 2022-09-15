@@ -1,0 +1,35 @@
+{{ define "Index.html" }}
+  {{ template "Header.html" }}
+    {{ template "Menu.html"  }}
+    <br />
+    <div>
+      
+      <table border="1">
+        <thead>
+          <tr>
+            <td>ID</td>
+            <td>Country</td>
+            <td>Capital</td>
+            <td>View</td>
+            <td>Edit</td>
+            <td>Delete</td>
+          </tr>
+        </thead>
+
+        <tbody>
+      {{ range .result }}
+        <tr>
+          <td>{{ .Id }}</td>
+          <td> {{ .Country }} </td>
+          <td>{{ .Capital }} </td> 
+          <td><a href="show/{{ .Id }}">View</a></td>
+          <td><a href="edit/{{.Id}}">Edit</a></td>
+          <td><a href="delete/{{ .Id }}">Delete</a><td>
+        </tr>
+      {{ end }}
+        </tbody>
+
+      </table>
+    </div>
+  {{ template "Footer.html" }}
+{{ end }}
