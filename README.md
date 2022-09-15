@@ -1,4 +1,4 @@
-#CLEAN_ARCHITECTURE_CRUD
+# CLEAN_ARCHITECTURE_CRUD
 
 This repo is aimed at providing a simple CRUD application using Clean Architecture, which basically means organizing the application codebase in a way that is independent of frameworks, UI, databases, and is testable.
 
