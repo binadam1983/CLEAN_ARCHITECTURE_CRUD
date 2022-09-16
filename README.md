@@ -1,6 +1,6 @@
 # CLEAN_ARCHITECTURE_CRUD
 
-This repo is aimed at providing a simple CRUD application using Clean Architecture, which basically means organizing the application codebase in a way that is independent of frameworks, UI, databases, and is testable.
+This work-in-progress repo is aimed at providing a simple CRUD application using Clean Architecture, which basically means organizing the application codebase in a way that is independent of frameworks, UI, databases, and is testable.
 
 - More About Clean Architecture:
 
@@ -16,3 +16,5 @@ The rings are as follows:
 4. Repository/ Data Access Layer
 
 ![](https://github.com/binadam1983/CLEAN_ARCHITECTURE_CRUD/blob/958903e5e6bf49bbae9b57ca8278a56b24a41524/clean-arch.png)
+
+More at https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
