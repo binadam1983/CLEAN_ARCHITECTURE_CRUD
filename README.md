@@ -13,4 +13,6 @@ The rings are as follows:
 3. Controller/ Presentation Layer/ UI Layer/ Delivery
 4. Repository/ Data Access Layer
 
+![](https://github.com/binadam1983/THE_CLEAN_ARCHITECTURE_CRUD/blob/8eca1a5d4c39454e56a1662e67de4ed11cd1512f/images/clean-arch.png)
+
 More at https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
