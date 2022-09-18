@@ -19,4 +19,4 @@ More at https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.ht
 
 Moreover, I have used Golang's GIN web framework and MySQL as persistent DB, but the app is not dependent on them, given the arch..
 
-![](https://github.com/binadam1983/THE_CLEAN_ARCHITECTURE_CRUD/blob/e939ec1b5372af164252a95286f2beaf395e6233/images/TCAC.mp4)
+![](https://github.com/binadam1983/THE_CLEAN_ARCHITECTURE_CRUD/blob/41d9010220b3bab3532f1b080501124164df5f86/images/ezgif.com-gif-maker.gif)
