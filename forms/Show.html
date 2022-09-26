@@ -1,8 +1,10 @@
 {{ define "Show.html" }}
-  {{ template "Header.html" }}
-    {{ template "Menu.html"  }}
-    <h2> Record: {{ .Id }} </h2>
-      <p>Country: {{ .Country }}</p>
-      <p>Capital:  {{ .Capital }}</p><br /> <a href="/edit/{{.Id}}">Edit</a></p>
-  {{ template "Footer.html" }}
+{{ template "Header.html" }}
+{{ template "Menu.html" }}
+<div style="margin-left: 550px;">
+  <h2> Record: {{ .Id }} </h2>
+  <p>Country: {{ .Country }}</p>
+  <p>Capital: {{ .Capital }}</p><br /> <a href="/edit/{{.Id}}">Edit</a></p>
+</div>
+{{ template "Footer.html" }}
 {{ end }}

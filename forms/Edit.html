@@ -1,12 +1,15 @@
 {{ define "Edit.html" }}
-  {{ template "Header.html" }}
-    {{ template "Menu.html" }}
-   <h2>Edit Country and Capital</h2>
-   <h3> Record ID: {{ .Id }} </h3>  
-    <form method="POST" action="/update/{{.Id}}">
-      <label> Country </label><input type="text" name="country" value="{{.Country}}" /><br />
-      <label> Capital </label><input type="text" name="capital" value="{{.Capital}}"  /><br />
-      <input type="submit" value="Save" />
-    </form>
-  {{ template "Footer.html" }}
+{{ template "Header.html" }}
+{{ template "Menu.html" }}
+<div style="margin-left: 550px;">
+  <h2>Edit Country and Capital</h2>
+  <h3> Record ID: {{ .Id }} </h3>
+  <form method="POST" action="/update/{{.Id}}">
+    <input type="text" name="country" value="{{.Country}}" /><br /><br />
+    <input type="text" name="capital" value="{{.Capital}}" /><br /><br />
+    <input type="submit" value="Save" />
+  </form>
+</div>
+
+{{ template "Footer.html" }}
 {{ end }}

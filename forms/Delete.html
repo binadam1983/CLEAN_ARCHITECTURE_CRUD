@@ -1,11 +1,14 @@
 {{ define "Delete.html" }}
-  {{ template "Header.html" }}
-    {{ template "Menu.html" }}
-   <h3> Record ID: {{ .Id }} </h3>  
-    <form method="post" action="http://localhost:3333/delete/{{.Id}}">
-        <p>Country: {{ .Country }}</p>
-        <p>Capital:  {{ .Capital }}</p><br />
-      <input type="submit" value="Delete" /> <a href="/edit/{{.Id}}">Edit</a></p>
-    </form>
-  {{ template "Footer.html" }}
+{{ template "Header.html" }}
+{{ template "Menu.html" }}
+<div style="margin-left: 550px;">
+  <h3> Record ID: {{ .Id }} </h3>
+  <form method="post" action="http://localhost:3333/delete/{{.Id}}">
+    <p>Country: {{ .Country }}</p>
+    <p>Capital: {{ .Capital }}</p><br />
+    <input type="submit" value="Delete" /> <a href="/edit/{{.Id}}">Edit</a></p>
+  </form>
+</div>
+
+{{ template "Footer.html" }}
 {{ end }}
